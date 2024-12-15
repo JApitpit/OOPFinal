@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\OOPFinal.styles.css",
+      "PackagePath": "staticwebassets\\OOPFinal.styles.css"
+    },
+    {
+      "Id": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.OOPFinal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.OOPFinal.props",
+      "PackagePath": "build\\OOPFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.OOPFinal.props",
+      "PackagePath": "buildMultiTargeting\\OOPFinal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.OOPFinal.props",
+      "PackagePath": "buildTransitive\\OOPFinal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

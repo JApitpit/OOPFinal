@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jianp\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\OOP2\\Assignments\\Projects\\OOPFINAL\\OOPFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|c:\\users\\jianp\\onedrive - southern alberta institute of technology\\sait\\oop2\\assignments\\projects\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\jianp\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\OOP2\\Assignments\\Projects\\OOPFINAL\\OOPFinal\\OOPFinal\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "OOPFinal\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\jianp\\OneDrive - Southern Alberta Institute of Technology\\SAIT\\OOP2\\Assignments\\Projects\\OOPFINAL\\OOPFinal\\OOPFinal\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "OOPFinal\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T01:02:53.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
