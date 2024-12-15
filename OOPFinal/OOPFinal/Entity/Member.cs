@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPFinal
+namespace OOPFinal.Entity
 {
     public class Member
     {
@@ -16,7 +16,7 @@ namespace OOPFinal
         public DateOnly JoinDate { get; set; }
         public string? Status { get; set; }
 
-        public Member(int id, string f_name, string l_name, string phone,  string email, DateOnly joinDate, string status)
+        public Member(int id, string f_name, string l_name, string phone, string email, DateOnly joinDate, string status)
         {
             Id = id;
             FirstName = f_name;

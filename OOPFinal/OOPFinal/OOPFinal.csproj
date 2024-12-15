@@ -58,14 +58,19 @@
     </ItemGroup>
 
     <ItemGroup>
+      <MauiAsset Remove="Resources\Raw\attendance.csv" />
       <MauiAsset Remove="Resources\Raw\members.csv" />
     </ItemGroup>
 
     <ItemGroup>
+      <None Remove="Resources\Raw\attendance.csv" />
       <None Remove="Resources\Raw\members.csv" />
     </ItemGroup>
 
     <ItemGroup>
+      <Content Include="Resources\Raw\attendance.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
       <Content Include="Resources\Raw\members.csv">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>

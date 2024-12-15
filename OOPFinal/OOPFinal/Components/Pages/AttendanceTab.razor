@@ -1,0 +1,71 @@
+﻿@page "/attendancetab"
+@using OOPFinal.Managers;
+@using OOPFinal.Entity;
+
+<h1>Attendance</h1>
+
+<div>
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black; padding: 8px;">ID</th>
+                <th style="border: 1px solid black; padding: 8px;">FIRST</th>
+                <th style="border: 1px solid black; padding: 8px;">LAST</th>
+                <th style="border: 1px solid black; padding: 8px;">SIGN IN</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var attendance in AttendanceList)
+            {
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">@attendance.Id</td>
+                    <td style="border: 1px solid black; padding: 8px;">@attendance.FirstName</td>
+                    <td style="border: 1px solid black; padding: 8px;">@attendance.LastName</td>
+                    <td style="border: 1px solid black; padding: 8px;">@attendance.SignIn</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private DBManager _dbManager = DBManager.INSTANCE;
+    private List<Attendance> AttendanceList = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadAttendance();
+    }
+
+    private async Task LoadAttendance()
+    {
+        try
+        {
+            Console.WriteLine("Loading attendance...");
+            await _dbManager.LoadAttendance();
+            AttendanceList = _dbManager.AttendanceList;
+            if (AttendanceList == null || AttendanceList.Count == 0)
+            {
+                Console.WriteLine("No attendance data found.");
+            }
+            else
+            {
+                Console.WriteLine("Attendance list loaded: " + AttendanceList.Count);
+            }
+
+            // Ensure updates happen on the main thread
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                StateHasChanged();  // Force component re-render
+            });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error loading attendance: " + ex.Message);
+        }
+    }
+
+    private void SubmitAttendance() { }
+
+    private void ResetForm() { }
+}
