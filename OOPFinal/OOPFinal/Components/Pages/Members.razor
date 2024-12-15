@@ -1,0 +1,53 @@
+﻿@page "/members"
+@using OOPFinal.Platforms;
+
+
+<h1>Members</h1>
+
+<div>
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black; padding: 8px;">ID</th>
+                <th style="border: 1px solid black; padding: 8px;">LAST</th>
+                <th style="border: 1px solid black; padding: 8px;">FIRST</th>
+                <th style="border: 1px solid black; padding: 8px;">PHONE</th>
+                <th style="border: 1px solid black; padding: 8px;">EMAIL</th>
+                <th style="border: 1px solid black; padding: 8px;">JOIN DATE</th>
+                <th style="border: 1px solid black; padding: 8px;">STATUS</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in MembersList)
+            {
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">@member.Id</td>
+                    <td style="border: 1px solid black; padding: 8px;">@member.LastName</td>
+                    <td style="border: 1px solid black; padding: 8px;">@member.FirstName</td>
+                    <td style="border: 1px solid black; padding: 8px;">@member.Phone</td>
+                    <td style="border: 1px solid black; padding: 8px;">@member.Email</td>
+                    <td style="border: 1px solid black; padding: 8px;">@member.JoinDate</td>
+                    <td style="border: 1px solid black; padding: 8px;">@member.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+    private DBManager _dbManager = DBManager.INSTANCE;
+    private List<Member> MembersList = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadMembers();
+    }
+
+    private async Task LoadMembers()
+    {
+        await _dbManager.LoadMembers();
+        MembersList = _dbManager.MembersList;
+    }
+
+}
