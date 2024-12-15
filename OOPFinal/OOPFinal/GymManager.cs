@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOPFinal
 {
-    internal class GymManagementSystem
+    public class GymManager
     {
+        public static GymManager INSTANCE = new GymManager();
+        public List<Member> MembersList = new List<Member>();
+
+
     }
 }

@@ -1,0 +1,11 @@
+ID,F_NAME,L_NAME,PHONE,EMAIL,JOIN_DATE,STATUS
+1,John,Doe,123-456-7890,johndoe@example.com,2023-01-15,Active
+2,Jane,Smith,987-654-3210,janesmith@example.com,2022-11-20,Active
+3,Michael,Brown,456-789-1230,michaelbrown@example.com,2023-03-05,Inactive
+4,Emily,Davis,789-123-4560,emilydavis@example.com,2023-06-12,Active
+5,Daniel,Wilson,234-567-8901,danielwilson@example.com,2023-08-25,Inactive
+6,Sophia,Taylor,567-890-1234,sophiataylor@example.com,2022-10-10,Active
+7,William,Anderson,345-678-9012,williamanderson@example.com,2023-09-30,Active
+8,Olivia,Martinez,678-901-2345,oliviamartinez@example.com,2023-05-18,Inactive
+9,James,Lee,901-234-5678,jameslee@example.com,2023-02-22,Active
+10,Ava,Hernandez,123-098-4567,avahernandez@example.com,2023-07-08,Inactive
