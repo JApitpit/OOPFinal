@@ -1,0 +1,73 @@
+﻿@page "/addmember"
+@using OOPFinal.Entity
+@using OOPFinal.Managers
+
+<h1>Add Member</h1>
+
+<style>
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 8px 15px;
+        margin-right: 5px;
+    }
+</style>
+
+<div>
+    <label>ID: <input type="text" @bind="member.Id" /></label>
+    <br />
+
+    <label>First Name: <input type="text" @bind="member.FirstName" /></label>
+    <br />
+
+    <label>Last Name: <input type="text" @bind="member.LastName" /></label>
+    <br />
+
+    <label>Phone: <input type="text" @bind="member.Phone" /></label>
+    <br />
+
+    <label>Email: <input type="text" @bind="member.Email" /></label>
+    <br />
+
+    <label>Join Date: <input type="date" @bind="member.JoinDate" /></label>
+    <br />
+
+    <label>Status: <input type="text" @bind="member.Status" /></label>
+    <br />
+
+    <button @onclick="SaveMember">Save</button>
+    <button @onclick="ResetForm">Reset</button>
+</div>
+
+@code {
+    private DBManager _dbManager = DBManager.INSTANCE;
+    private Member member = new Member(0, "", "", "", "", DateOnly.FromDateTime(DateTime.Now), "Active");
+
+
+
+    private void SaveMember()
+    {
+        // Implement save logic
+
+    }
+
+    private void ResetForm()
+    {
+        member.Id = 0;
+        member.FirstName = "";
+        member.LastName = "";
+        member.Phone = "";
+        member.Email = "";
+        member.JoinDate = DateOnly.FromDateTime(DateTime.Now);
+        member.Status = "Active";
+    }
+}
