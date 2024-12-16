@@ -7,6 +7,59 @@
     .content {
         margin-bottom: 5px;
     }
+
+    .container {
+        margin: 20px auto;
+        max-width: 80%;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    button {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    input[type="text"], input[type="date"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    thead {
+        background-color: #f2f2f2;
+    }
 </style>
 
 <div class="content">
@@ -14,6 +67,14 @@
     <input type="date" @bind="searchDate" />
 
     <button>Search</button>
+</div>
+
+<div class="content">
+    <label>Search by Name: <input type="text" @bind="searchName" /></label>
+    <button @onclick="SearchByName">Search</button>
+
+    <label>Search by Date: <input type="date" @bind="searchDate" /></label>
+    <button @onclick="SearchByDate">Search</button>
 </div>
 
 <div class="content">
@@ -61,6 +122,8 @@
     private string? searchName;
     private DateOnly searchDate = DateOnly.FromDateTime(DateTime.Now);
 
+    private string errorMessage;
+
     protected override async Task OnInitializedAsync()
     {
         await LoadAttendance();
@@ -68,24 +131,74 @@
 
     private async Task LoadAttendance()
     {
-        Console.WriteLine("Loading attendance...");
-        await _dbManager.LoadAttendance();
-        AttendanceList = _dbManager.AttendanceList;
+        try
+        {
+            await _dbManager.LoadAttendance();
+            AttendanceList = _dbManager.AttendanceList;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading attendance: {ex.Message}");
+        }
     }
+
 
     private void SearchByName()
     {
-        
+        AttendanceList = _dbManager.AttendanceList
+            .Where(a => a.FirstName.Contains(searchName ?? "", StringComparison.OrdinalIgnoreCase) ||
+                        a.LastName.Contains(searchName ?? "", StringComparison.OrdinalIgnoreCase))
+            .ToList();
     }
 
     private void SearchByDate()
     {
-        
+        AttendanceList = _dbManager.AttendanceList
+            .Where(a => a.SignIn.Date == searchDate.ToDateTime(TimeOnly.MinValue).Date)
+            .ToList();
     }
+
 
     private void SubmitAttendance()
     {
-        //method to save attendance to csv
+        // Validate required fields
+        if (string.IsNullOrWhiteSpace(attendance.FirstName) || string.IsNullOrWhiteSpace(attendance.LastName))
+        {
+            errorMessage = "First Name and Last Name are required.";
+            return;
+        }
+
+        try
+        {
+            _dbManager.SaveAttendance(attendance); // Save to CSV
+            AttendanceList.Add(attendance);       // Update in-memory list
+            ResetForm();                          // Reset form
+            errorMessage = null;                  // Clear error
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error saving attendance: {ex.Message}";
+        }
+    }
+
+    public void SaveAttendance(Attendance attendance)
+    {
+        string relativePath = "Resources/Raw/attendance.csv";
+        string attendanceFile = Path.Combine(AppContext.BaseDirectory, relativePath);
+
+        string csvLine = $"{attendance.Id},{attendance.FirstName},{attendance.LastName},{attendance.SignIn}";
+
+        try
+        {
+            using (var writer = new StreamWriter(attendanceFile, true))
+            {
+                writer.WriteLine(csvLine);
+            }
+        }
+        catch (Exception ex)
+        {
+            throw new Exception($"Error saving attendance: {ex.Message}");
+        }
     }
 
     private void ResetForm()
@@ -95,5 +208,6 @@
         attendance.LastName = "";
         attendance.SignIn = DateTime.Now;
     }
+
 }
 

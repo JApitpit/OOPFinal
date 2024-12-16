@@ -8,4 +8,5 @@ ID,F_NAME,L_NAME,PHONE,EMAIL,JOIN_DATE,STATUS
 7,William,Anderson,345-678-9012,williamanderson@example.com,2023-09-30,Active
 8,Olivia,Martinez,678-901-2345,oliviamartinez@example.com,2023-05-18,Inactive
 9,James,Lee,901-234-5678,jameslee@example.com,2023-02-22,Active
-10,Ava,Hernandez,123-098-4567,avahernandez@example.com,2023-07-08,Inactive
+10,Ava,Hernandez,123-098-4567,avahernandez@example.com,2023-07-08,Inactive11,Jian,Pitpit,3682997797,jianpitpit@gmail.com,2024-12-16,Active
+11,Jian,Pitpit,3682997797,jianpitpit@gmail.com,2024-12-16,Active

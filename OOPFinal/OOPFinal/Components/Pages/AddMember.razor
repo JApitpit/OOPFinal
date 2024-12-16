@@ -20,7 +20,62 @@
         padding: 8px 15px;
         margin-right: 5px;
     }
+
+    .container {
+        margin: 20px auto;
+        max-width: 80%;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    input[type="text"], input[type="date"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    thead {
+        background-color: #f2f2f2;
+    }
 </style>
+
+
 
 <div>
     <label>ID: <input type="text" @bind="member.Id" /></label>
@@ -48,16 +103,51 @@
     <button @onclick="ResetForm">Reset</button>
 </div>
 
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color: red;">@errorMessage</p>
+}
+
+
 @code {
     private DBManager _dbManager = DBManager.INSTANCE;
     private Member member = new Member(0, "", "", "", "", DateOnly.FromDateTime(DateTime.Now), "Active");
-
+    private string errorMessage;
 
 
     private void SaveMember()
     {
-        // Implement save logic
+        // Validate required fields
+        if (string.IsNullOrWhiteSpace(member.FirstName) || string.IsNullOrWhiteSpace(member.LastName))
+        {
+            errorMessage = "First Name and Last Name are required.";
+            return;
+        }
 
+        // Format the data for CSV
+        var memberData = $"{member.Id},{member.FirstName},{member.LastName},{member.Phone}," +
+                         $"{member.Email},{member.JoinDate},{member.Status}";
+        string filePath = Path.Combine(AppContext.BaseDirectory, "Resources/Raw/members.csv");
+
+        // Append the new member to the CSV file
+        try
+        {
+            using (var writer = new StreamWriter(filePath, true))
+            {
+                writer.WriteLine(memberData);
+            }
+
+            // Update the in-memory list
+            _dbManager.MembersList.Add(member);
+
+            // Reset form and clear errors
+            ResetForm();
+            errorMessage = null;
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error saving member: {ex.Message}";
+        }
     }
 
     private void ResetForm()

@@ -123,6 +123,18 @@ namespace OOPFinal.Managers
                     ));
                 }
             }
+
+        }
+
+        public void ExportAttendance(string filePath)
+        {
+            using var writer = new StreamWriter(filePath);
+            writer.WriteLine("Id,First,Last,Sign In");
+            foreach (var record in AttendanceList)
+            {
+                writer.WriteLine($"{record.Id},{record.FirstName},{record.LastName},{record.SignIn}");
+            }
+            Console.WriteLine($"Attendance exported to {filePath}");
         }
     }
 }
