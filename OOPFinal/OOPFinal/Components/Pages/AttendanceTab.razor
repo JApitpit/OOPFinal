@@ -2,7 +2,6 @@
 @using OOPFinal.Managers;
 @using OOPFinal.Entity;
 
-<h1>Sign In Log</h1>
 <style>
     .content {
         margin-bottom: 5px;
@@ -62,19 +61,13 @@
     }
 </style>
 
+<h1>Sign In Log</h1>
+
 <div class="content">
     <label>Search by: <input type="text" @bind="searchName" /></label>
     <input type="date" @bind="searchDate" />
 
     <button>Search</button>
-</div>
-
-<div class="content">
-    <label>Search by Name: <input type="text" @bind="searchName" /></label>
-    <button @onclick="SearchByName">Search</button>
-
-    <label>Search by Date: <input type="date" @bind="searchDate" /></label>
-    <button @onclick="SearchByDate">Search</button>
 </div>
 
 <div class="content">
