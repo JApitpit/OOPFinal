@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.oopfinal</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>213BBA8F423DB162693073D2E4B370523509A779771C4C0914BF41E04C7308C3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.oopfinal_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.oopfinal_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,284 +27,292 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-15T01:03:55.222</Modified>
+      <Modified>2024-12-16T04:56:59.353</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-15T01:03:55.006</Modified>
+      <Modified>2024-12-16T04:56:59.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OOPFinal.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OOPFinal.runtimeconfig.json">
       <PackagePath>OOPFinal.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-15T01:03:54.740</Modified>
+      <Modified>2024-12-16T04:56:58.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OOPFinal.dll">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OOPFinal.dll">
       <PackagePath>OOPFinal.dll</PackagePath>
-      <Modified>2024-12-15T01:03:53.700</Modified>
+      <Modified>2024-12-16T04:56:57.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>OOPFinal.exe</PackagePath>
-      <Modified>2024-12-15T01:03:53.717</Modified>
+      <Modified>2024-12-16T04:56:57.817</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-12-15T01:02:43.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\wwwroot\css\app.css">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
       <Modified>2024-12-15T01:02:43.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\wwwroot\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
       <Modified>2024-12-15T01:02:43.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\wwwroot\css\bootstrap\bootstrap.min.css.map">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
       <Modified>2024-12-15T01:02:43.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\wwwroot\favicon.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
       <Modified>2024-12-15T01:02:43.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\wwwroot\index.html">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
       <Modified>2024-12-15T01:02:43.943</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:17.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:17.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:17.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:17.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:18.110</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-12-15T01:02:43.906</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-12-15T01:03:23.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-12-15T01:03:23.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-12-15T01:03:23.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-12-15T01:03:23.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-12-15T01:03:23.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-12-15T01:03:23.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-12-15T01:03:23.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-12-15T01:03:23.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-12-15T01:03:23.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-12-15T01:03:23.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.263</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-12-15T01:03:23.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-12-15T01:03:23.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-12-15T01:03:23.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-12-15T01:03:23.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-12-15T01:03:23.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OOPFinal.deps.json">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\Resources\Raw\attendance.csv">
+      <PackagePath>Resources\Raw\attendance.csv</PackagePath>
+      <Modified>2024-12-16T04:34:22.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\Resources\Raw\members.csv">
+      <PackagePath>Resources\Raw\members.csv</PackagePath>
+      <Modified>2024-12-16T04:34:22.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\OOPFinal.deps.json">
       <PackagePath>OOPFinal.deps.json</PackagePath>
-      <Modified>2024-12-15T01:03:54.590</Modified>
+      <Modified>2024-12-16T04:56:58.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jianp\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -670,19 +678,19 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2024-08-26T17:04:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\OOPFinal.styles.css">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\OOPFinal.styles.css">
       <PackagePath>wwwroot\OOPFinal.styles.css</PackagePath>
       <Modified>2024-12-15T01:03:14.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\OOPFinal.bundle.scp.css">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\OOPFinal.bundle.scp.css">
       <PackagePath>wwwroot\OOPFinal.bundle.scp.css</PackagePath>
       <Modified>2024-12-15T01:03:14.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\Components\Layout\MainLayout.razor.css">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
       <Modified>2024-12-15T01:02:43.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jianp\OneDrive - Southern Alberta Institute of Technology\SAIT\OOP2\Assignments\Projects\OOPFINAL\OOPFinal\OOPFinal\Components\Layout\NavMenu.razor.css">
+    <AppxPackagedFile Include="D:\Assignments\OOPFinal\OOPFinal\OOPFinal\OOPFinal\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
       <Modified>2024-12-15T01:02:43.982</Modified>
     </AppxPackagedFile>

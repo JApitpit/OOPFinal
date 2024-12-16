@@ -60,6 +60,8 @@ splashSplashScreen.scale-400.png
 wwwroot\OOPFinal.styles.css
 wwwroot\OOPFinal.bundle.scp.css
 AboutAssets.txt
+Resources\Raw\attendance.csv
+Resources\Raw\members.csv
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\gymmanagementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\gymmanagementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\DBManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OOPFinal\\DBManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\GymManagementSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OOPFinal\\GymManagementSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OOPFinal\\Attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OOPFinal\\Member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GymManagementSystem.cs",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\GymManagementSystem.cs",
               "RelativeDocumentMoniker": "OOPFinal\\GymManagementSystem.cs",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "OOPFinal\\GymManagementSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:01:10.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:01:10.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Attendance.cs",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Attendance.cs",
               "RelativeDocumentMoniker": "OOPFinal\\Attendance.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "OOPFinal\\Attendance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:00:55.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:00:55.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Member.cs",
               "RelativeDocumentMoniker": "OOPFinal\\Member.cs",
@@ -72,31 +70,28 @@
               "RelativeToolTip": "OOPFinal\\Member.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:00:45.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:00:45.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DBManager.cs",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\DBManager.cs",
               "RelativeDocumentMoniker": "OOPFinal\\DBManager.cs",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\DBManager.cs",
               "RelativeToolTip": "OOPFinal\\DBManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T05:00:17.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T05:00:17.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "OOPFinal\\Components\\Pages\\Home.razor",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "OOPFinal\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T01:02:53.238Z",
               "EditorCaption": ""
