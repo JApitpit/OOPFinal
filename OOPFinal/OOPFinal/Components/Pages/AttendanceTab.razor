@@ -19,7 +19,7 @@
     }
 
     button {
-        background-color: #4CAF50; /* Green */
+        background-color: #4CAF50;
         color: white;
         border: none;
         padding: 10px 20px;
@@ -154,7 +154,6 @@
 
     private void SubmitAttendance()
     {
-        // Validate required fields
         if (string.IsNullOrWhiteSpace(attendance.FirstName) || string.IsNullOrWhiteSpace(attendance.LastName))
         {
             errorMessage = "First Name and Last Name are required.";
@@ -163,10 +162,10 @@
 
         try
         {
-            _dbManager.SaveAttendance(attendance); // Save to CSV
-            AttendanceList.Add(attendance);       // Update in-memory list
-            ResetForm();                          // Reset form
-            errorMessage = null;                  // Clear error
+            _dbManager.SaveAttendance(attendance); 
+            AttendanceList.Add(attendance);
+            ResetForm();
+            errorMessage = null;
         }
         catch (Exception ex)
         {

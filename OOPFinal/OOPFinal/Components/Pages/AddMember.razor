@@ -117,14 +117,12 @@
 
     private void SaveMember()
     {
-        // Validate required fields
         if (string.IsNullOrWhiteSpace(member.FirstName) || string.IsNullOrWhiteSpace(member.LastName))
         {
             errorMessage = "First Name and Last Name are required.";
             return;
         }
 
-        // Format the data for CSV
         var memberData = $"{member.Id},{member.FirstName},{member.LastName},{member.Phone}," +
                          $"{member.Email},{member.JoinDate},{member.Status}";
         string filePath = Path.Combine(AppContext.BaseDirectory, "Resources/Raw/members.csv");
@@ -137,10 +135,8 @@
                 writer.WriteLine(memberData);
             }
 
-            // Update the in-memory list
             _dbManager.MembersList.Add(member);
 
-            // Reset form and clear errors
             ResetForm();
             errorMessage = null;
         }

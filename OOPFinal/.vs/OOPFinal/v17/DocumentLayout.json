@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\attendancetab.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\attendancetab.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\managers\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\managers\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\members.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\members.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\attendancetab.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\attendancetab.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\addmember.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\addmember.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\managers\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\managers\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\resources\\raw\\members.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\resources\\raw\\members.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|d:\\assignments\\oopfinal\\oopfinal\\oopfinal\\oopfinal\\resources\\raw\\members.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D3A8BC1B-514B-417D-8D5F-3C44223222FE}|OOPFinal\\OOPFinal.csproj|solutionrelative:oopfinal\\resources\\raw\\members.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,37 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "OOPFinal\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "OOPFinal\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-16T06:57:24.584Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "members.csv",
-              "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Resources\\Raw\\members.csv",
-              "RelativeDocumentMoniker": "OOPFinal\\Resources\\Raw\\members.csv",
-              "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Resources\\Raw\\members.csv",
-              "RelativeToolTip": "OOPFinal\\Resources\\Raw\\members.csv",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-12-16T06:53:00.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AddMember.razor",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\AddMember.razor",
               "RelativeDocumentMoniker": "OOPFinal\\Components\\Pages\\AddMember.razor",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\AddMember.razor",
               "RelativeToolTip": "OOPFinal\\Components\\Pages\\AddMember.razor",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwHYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T06:06:57.494Z",
               "EditorCaption": ""
@@ -109,33 +85,33 @@
               "RelativeDocumentMoniker": "OOPFinal\\Components\\Pages\\Members.razor",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\Members.razor",
               "RelativeToolTip": "OOPFinal\\Components\\Pages\\Members.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAACAhvIaygMgwEMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T05:59:19.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DBManager.cs",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Managers\\DBManager.cs",
               "RelativeDocumentMoniker": "OOPFinal\\Managers\\DBManager.cs",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Managers\\DBManager.cs",
               "RelativeToolTip": "OOPFinal\\Managers\\DBManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T05:57:20.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AttendanceTab.razor",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\AttendanceTab.razor",
               "RelativeDocumentMoniker": "OOPFinal\\Components\\Pages\\AttendanceTab.razor",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\AttendanceTab.razor",
               "RelativeToolTip": "OOPFinal\\Components\\Pages\\AttendanceTab.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwJsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T05:54:55.132Z",
               "EditorCaption": ""
@@ -186,20 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "OOPFinal\\Components\\Pages\\Home.razor",
               "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "OOPFinal\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T01:02:53.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "OOPFinal\\Components\\Layout\\MainLayout.razor",
@@ -209,6 +185,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-16T06:56:53.619Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "OOPFinal\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "OOPFinal\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T06:57:24.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "members.csv",
+              "DocumentMoniker": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Resources\\Raw\\members.csv",
+              "RelativeDocumentMoniker": "OOPFinal\\Resources\\Raw\\members.csv",
+              "ToolTip": "D:\\Assignments\\OOPFinal\\OOPFinal\\OOPFinal\\OOPFinal\\Resources\\Raw\\members.csv",
+              "RelativeToolTip": "OOPFinal\\Resources\\Raw\\members.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-12-16T06:53:00.726Z"
             }
           ]
         }
